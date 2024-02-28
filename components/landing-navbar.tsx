@@ -20,7 +20,7 @@ export const LandingNavbar = () => {
           <Image fill alt="Logo" src="/logo.png" />
         </div>
       </Link>
-      <div className="flex items-center gap-x-2">
+      <div className="flex items-center gap-x-2 z-10">
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
           <Button variant="premium" className="rounded-full xl:mr-20">
             Launch App
